@@ -1,0 +1,106 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  display: inline-block;
+  position: fixed;
+  width: 100%;
+  text-align: right;
+  padding: 10px;
+  background-color: #eee;
+}
+
+.logo {
+  position: absolute;
+  left: 10px;
+  font-size: 18px;
+}
+
+header ul {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+header ul li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 15px;
+  color: purple;
+}
+
+header ul li a {
+  text-decoration: none; 
+}
+
+input {
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  width: 350px;
+  padding: 5px;
+}
+
+
+.form-section {
+  position: absolute;
+  top: 68px;
+  left: 75px;
+}
+
+.form-navigation {
+  position: absolute;
+  top: 175px;
+  left: 75px;
+  border: 1px solid #eee;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.form-navigation ul li {
+  list-style: none;
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+
+}
+
+
+.form-section .search-button {
+  font-size: 17px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+}
+
+
+.jobs {
+  position: absolute;
+  top: 250px;
+  left: 75px;
+  line-height: 30px;
+}
+
+
+.grey {
+  color: grey;
+  font-size: 14px;
+  padding: 20px;
+}
+
+.grey_left {
+  color: grey;
+  font-size: 14px;
+  padding-right: 20px;
+
+}
+
+.blue {
+  color: blue;
+  font-size: 17px;  
+}
